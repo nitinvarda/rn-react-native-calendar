@@ -283,10 +283,12 @@ export default function index(props,ref){
                         backgroundColor: selectedDate? props.selectedDateColor : todaysDate ? props.todayDateColor : 'transparent',}}>
     
                     <Text style={{color:(selectedDate || todaysDate) ? 'white' : 'black',}}>{week.date}</Text>
-                    {items[week.isoFormat] && <View style={{
-                                            height:5,
-                                            width:5,
-                                            backgroundColor:week.date===dateNumber ? 'white' : Colors.primary,borderRadius:5/2}} />}
+                    {items[week.isoFormat] && 
+                        <View style={{
+                            height:5,
+                            width:5,
+                            backgroundColor:week.date===dateNumber ? 'white' : Colors.primary,borderRadius:5/2}} 
+                            />}
                     </TouchableOpacity>
                 </View>
             )})}
