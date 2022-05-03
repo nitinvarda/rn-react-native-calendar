@@ -1,6 +1,6 @@
 {
   "name": "rn-react-native-calendar",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "calendar package for react native",
   "main": "index.js",
   "scripts": {
