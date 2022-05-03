@@ -1,0 +1,32 @@
+{
+  "name": "rn-react-native-calendar",
+  "version": "5.0.0",
+  "description": "calendar package for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nitinvarda",
+  "license": "MIT",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.70.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "bugs": {
+    "url": "https://github.com/nitinvarda/rn-react-native-calendar/issues"
+  },
+  "homepage": "https://github.com/nitinvarda",
+  "repository": "https://github.com/nitinvarda/rn-react-native-calendar",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+
+}
